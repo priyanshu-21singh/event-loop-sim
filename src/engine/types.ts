@@ -57,7 +57,7 @@ export type StepAction =
     line?: number   // source code line to highlight in editor
 }
 | {
-    kind: 'exac'
+    kind: 'exec'
     queue: QueueKey
     taskId: string // id of the task being executed 
     output?: string // if execution produces console output 
